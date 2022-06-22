@@ -1,0 +1,512 @@
+/* Huddle landing page Css Codes by Adedayo Agboola */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+ul, ol {
+  list-style-type: none;
+}
+
+ul li {
+  display: block;
+margin-bottom: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-size: 15px;
+}
+
+
+.container {
+  padding: 15px 65px;
+}
+
+.herosection {
+  display: flex;
+  background-image: url(/images/bg-hero-desktop.svg);
+  flex-direction: column;
+  background-color: #E6F9FF;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 65px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  margin: 35px 0 60px;
+}
+
+.logo {
+  width: 50%;
+}
+
+.logo img {
+width: 30%;
+}
+
+.hsbutton {
+  width: 50%;
+}
+
+.hsbutton button{
+  float: right;
+  background: #fff;
+}
+
+.submitBtn {
+  font-size: 75%;
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  padding: 15px 30px;
+  outline: none;
+  border: 0;
+  border-radius: 30px;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.hero .herocontent {
+  width: 50%;
+    padding-right: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .heroimage {
+  padding-left: 65px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.herocontent h1 {
+  font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.herocontent p {
+    margin-bottom: 30px;
+}
+
+.herocontent button{
+  background: #FF51C0;
+  color: #fff;
+  font-size: 75%;
+  width: 60%;
+}
+
+.herocontent button:hover, .herocontent button:active {
+  background: #D380B6;
+}
+
+
+.detailsection {
+  padding: 65px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.huddlecontent,
+.huddleimage {
+  width: 50%;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.huddlecontent h3{
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.huddlecontent {
+  padding: 0 70px;
+  text-align: left;
+}
+
+.huddlecontent.right {
+  padding: 0 0 0 140px;
+  text-align: left;
+}
+
+.huddlecontent p{
+  font-size: 100%;
+}
+
+.huddleimage img{
+width: 70%;
+padding-left: 30%;
+}
+
+.huddleimage.left img{
+  padding: 0 70px;
+  }
+
+
+ .last .boxshadow {
+  position: relative;
+  text-align: center;
+    z-index: 2;
+    padding: 75px;
+    margin: 65px auto -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+
+
+  .last button{
+    background: #FF51C0;
+    color: #fff;
+    font-size: 85%;
+    width: 60%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .last button:hover, .last button:active {
+    background: #D380B6;
+  }
+
+footer{
+  font-weight: 300;
+  color: #f4f4f4;
+  padding: 150px 0 35px;
+  position: relative;
+  display: flex;
+  z-index: 1;
+  background: #00252E;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.footerdiv {
+  position: relative;
+}
+
+.footerdiv .container.first{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footerdiv .column {
+ width: 25%;
+ padding: 35px;
+}
+
+.footerdiv .column:first-child {
+  width: 30%;
+}
+
+.footerdiv .column:last-child {
+  width: 20%;
+}
+
+.footerdiv .flogo {
+  display: block;
+  position: absolute;
+  top: 140px;
+  left: 90px;
+}
+
+.footerdiv .column p{
+  display: flex;
+  margin-bottom: 10px;
+ }
+
+
+ .footerdiv .column p i {
+  float: left;
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  padding: 4px 0;
+  margin-right: 15px;
+  line-height: normal;
+ }
+ 
+
+.footerdiv .lastbase{
+  text-align: right;
+}
+
+
+ul.hsm {
+  display:flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.hsm li {
+  width: 35px;
+  height: 35px;
+}
+
+.hsm li a {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+}
+
+
+.hsm li:first-child {
+  background-image: url(/images/icon-social.png);
+  background-position: left top ;
+  background-repeat: no-repeat;
+}
+
+.hsm li:nth-child(2) {
+  background-image: url(/images/icon-social.png);
+  background-position: center top ;
+  background-repeat: no-repeat;
+}
+
+
+.hsm li:last-child {
+  background-image: url(/images/icon-social.png);
+  background-position: right top ;
+  background-repeat: no-repeat;
+}
+
+
+
+/** Responsive Media Queries **/
+
+
+@media (max-width: 980px) {
+
+  .herocontent h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.herocontent button {
+    width: 100%;
+    font-size: 60%;
+    padding: 12px; 
+  }
+
+  .huddlecontent{
+    padding: 0 40px 0 0;
+  }
+
+  .huddlecontent.right {
+    padding: 0 0 0 40px;
+}
+
+  .huddleimage img{
+    width: 100%;
+    padding: 0;
+    }
+
+    .huddleimage.left img {
+      padding: 0;
+  }
+
+  .huddlecontent p{
+    font-size: 80%;
+  }
+
+  .huddlecontent h3{
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 15px;
+  }
+
+  .huddlecontent.boxshadow h3 {
+    margin-bottom: 35px;
+}
+
+}
+
+@media screen and (max-width: 848px) {
+
+  .hero .herocontent {
+    width: 50%;
+    padding-right: 15px;
+  }
+  
+  .herocontent h1 {
+    font-size: 22px;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+
+
+.herocontent p {
+  font-size: 100%;
+  margin-bottom: 30px;
+}
+
+.footerdiv .container.first {
+  flex-direction: column;
+  margin-top: 45px;
+}
+
+.footerdiv .column {
+  width: 100%;
+  padding: 0;
+ }
+ 
+ .footerdiv .column:first-child {
+   width: 100%;
+   margin-bottom: 25px;
+ }
+ 
+ .footerdiv .column:last-child {
+   width: 100%;
+   margin-top: 25px;
+ }
+
+ ul.hsm {
+  justify-content: center;
+}
+ 
+.herocontent button {
+    font-size: 80%;
+    padding: 10px; 
+  }
+
+  .footerdiv .lastbase{
+    text-align: center;
+  }
+
+  .footerdiv .flogo {
+    top: 150px;
+    left: 60px;
+  }
+
+}
+
+
+@media screen and (max-width: 680px) {
+
+  .container {
+    padding: 15px 35px;
+  }
+
+  
+  .herocontent h1 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+
+  .herocontent button {
+    width: 100%;
+    padding: 15px 30px; 
+    margin-bottom: 35px;
+    text-align: center;
+  }
+
+  .hero.intro {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .herosection { 
+    background-image: url(/images/bg-hero-nobile.svg);
+  }
+
+  .hero .herocontent, .hero .heroimage {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+
+  
+.logo {
+  width: 100%;
+}
+
+.logo img {
+width: 50%;
+}
+
+.hsbutton {
+  width: 50%;
+}
+
+
+  .detailsection {
+    flex-direction: column;
+    padding: 45px;
+    justify-content: center;
+  }
+
+  .huddleimage, .huddlecontent {
+    width: 100%;
+    padding: 35px 0;
+    justify-content: center;
+    float: none !important;
+    text-align: center;
+  }
+
+  .huddlecontent.right {
+    padding: 0;
+    text-align: center;
+}
+
+  .huddlecontent p {
+    font-size: 100%;
+}
+
+  .huddleimage img{
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+    }
+
+    .last .boxshadow {
+      padding: 65px 0;
+  }
+
+  .footerdiv .flogo {
+    left: 30px;
+  }
+
+
+}
+
