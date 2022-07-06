@@ -179,6 +179,9 @@ animation-timing-function: ease;
 
 .huddleimage.left img{
   padding: 0 70px;
+  animation-name: lefthuddle;
+  animation-duration: 4s;
+  animation-timing-function: ease;
   }
 
 
@@ -313,9 +316,15 @@ ul.hsm {
 
 
 @keyframes animhuddle {
-   from {padding-left: 0;}
-  to {padding-left: 30%;}
+ from {padding-left: 0;}
+ to {padding-left: 30%;}
 }
+
+@keyframes lefthuddle {
+ from {padding-left: 0;}
+ to {padding-left: 70px;}
+}
+
 
 
 /** Responsive Media Queries **/
