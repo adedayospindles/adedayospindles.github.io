@@ -172,6 +172,8 @@ width: 30%;
 .huddleimage img{
 width: 70%;
 padding-left: 30%;
+animation-name: animhuddle;
+animation-duration: 4s;
 }
 
 .huddleimage.left img{
@@ -308,6 +310,19 @@ ul.hsm {
   background-repeat: no-repeat;
 }
 
+
+@keyframes animhuddle {
+  0% {
+    left:0px; 
+    top:0px;
+  }
+  
+  50% {
+    left:200px; 
+    top:0px;
+  }
+  
+}
 
 
 /** Responsive Media Queries **/
